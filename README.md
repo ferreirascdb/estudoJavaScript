@@ -2,6 +2,15 @@
 
 Para printar no terminar ou ver no cosole do navedador usar console.log
 console.log("Olá mundo");
+----------------------------------------------------------------------------------------------------
+
+Para declarar uma variavel usamos let
+
+let notas
+
+para declarar vetor usamos dessa maneira
+
+let notas = []
 
 -----------------------------------------------------------------------------------------------------
 
@@ -34,6 +43,8 @@ const r1 = readline.createInterface({
 *não esquecer de fechar o readline*
 r1.close();
 -----------------------------------------------------------------------------------------------------
+Para converter algo lido do readline de string para float, usar o parseFloat
+
 
 FOR - > READLINE
 Não dá para usar for com readline.question, mas, dá para usar recursividade, olhar como foi feito no exercicio de EstruturaSequencial 04.js
